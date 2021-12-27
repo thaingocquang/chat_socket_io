@@ -5,11 +5,35 @@ body {
 #left {
     width: 30%;
     float: left;
-    background-color: red;
+    background-color: #fc958d;
 }
 
 #right {
     width: 70%;
     float: left;
-    background-color: yellow;
+    background-color: #f8fa9b;
+}
+
+#boxTitle {
+    border: solid 1px black;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#boxContent {
+    border: solid 1px black;
+    border-top: none;
+    padding: 5px;
+    text-align: center;
+}
+
+#sayHi {
+    text-align: right;
+}
+
+#listMessage {
+    height: 300px;
+    background-color: #ffc4f8;
+    margin-bottom: 15px;
 }

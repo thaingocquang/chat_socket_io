@@ -13,6 +13,7 @@
 
     </script>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -23,17 +24,29 @@
         <div id="login">
             <h3>WHAT'S YOUR NAME?</h3>
             <input type="text" id="txtUsername">
-            <input type="button" value="Đăng ký" id="btnRegister">
+            <input type="button" value="Register" id="btnRegister">
 
         </div>
 
         <div id="home">
             <div id="left">
-                ss
+                <div id="boxTitle">User Online</div>
+                <div id="boxContent">
+                    <div>Nguyễn Văn A</div>
+                    <div>Nguyễn Thị B</div>
+                    <div>Nguyễn Văn C</div>
+                </div>
             </div>
 
             <div id="right">
-                df
+                <div id="sayHi">Hello,
+                    <span id="currentUser">Teo</span>
+                    <input type="button" id="btnLogout" value="Logout">
+                </div>
+
+                <div id="listMessage"></div>
+                <input type="text" id="txtMessage">
+                <input type="button" value="send" id="btnSendMessage">
             </div>
         </div>
 
